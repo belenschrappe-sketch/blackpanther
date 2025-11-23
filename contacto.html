@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="images/Marvel.png" alt="Marvel" width="100">
+        </a>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre la película</a></li>
+            <li><a href="reparto.html">Reparto</a></li>
+            <li><a href="produccion.html">Producción</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact-container">
+
+    <h2 class="titulo-contacto">Formulario de contacto</h2>
+    <p class="subtitulo-contacto">¿Ya estás registrado? Ingresá para tus consultas</p>
+
+    <form action="confirmacion.html" method="GET" class="formulario-contacto">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required placeholder="Ingresa tu apellido">
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu consulta aquí"></textarea>
+
+        <button type="submit" class="btn-enviar">Ingresar</button>
+    </form>
+
+</main>
+
+<footer>
+    <nav>
+        <a href="https://www.facebook.com/Marvel/" target="_blank">
+            <img src="images/facebook icon.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/Marvel" target="_blank">
+            <img src="images/twitter icon.png" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/marvel/" target="_blank">
+            <img src="images/instagram icon.png" alt="Instagram">
+        </a>
+    </nav>
+</footer>
+
+</body>
+</html>
